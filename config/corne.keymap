@@ -29,6 +29,7 @@
       quick-tap-ms = <175>;
       bindings = <&kp>, <&kp>;
       hold-trigger-key-positions = <RIGHT_KEYS>;
+      hold-trigger-on-release;
     };
     hmtr: home_row_mod_tap_right {
       compatible = "zmk,behavior-hold-tap";
@@ -39,6 +40,7 @@
       quick-tap-ms = <175>;
       bindings = <&kp>, <&kp>;
       hold-trigger-key-positions = <LEFT_KEYS>;
+      hold-trigger-on-release;
     };
     hltl: home_row_layer_tap_left {
       compatible = "zmk,behavior-hold-tap";
@@ -49,6 +51,7 @@
       quick-tap-ms = <175>;
       bindings = <&mo>, <&kp>;
       hold-trigger-key-positions = <RIGHT_KEYS>;
+      hold-trigger-on-release;
     };
     hltr: home_row_layer_tap_right {
       compatible = "zmk,behavior-hold-tap";
@@ -59,6 +62,7 @@
       quick-tap-ms = <175>;
       bindings = <&mo>, <&kp>;
       hold-trigger-key-positions = <LEFT_KEYS>;
+      hold-trigger-on-release;
     };
     td_caps: tap_dance_caps {
       compatible = "zmk,behavior-tap-dance";
