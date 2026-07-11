@@ -83,10 +83,10 @@
     symbols_layer {
       display-name = "Symbols";
       bindings = <
-        &trans &trans  &kp HASH  &kp FSLH  &kp BSLH  &trans       &trans   &kp CARET &kp LBRC &kp RBRC &trans   &trans
-        &trans &kp DQT &kp AT    &kp QMARK &kp STAR  &kp SQT      &kp EXCL &kp EQUAL &kp LPAR &kp RPAR &kp PLUS &trans
-        &trans &trans  &kp PRCNT &kp TILDE &kp GRAVE &kp DLLR     &kp AMPS &kp PIPE  &kp LBKT &kp RBKT &trans   &trans
-                                 &trans    &trans    &trans       &trans   &trans    &trans
+        &trans &trans  &kp HASH         &kp FSLH          &kp BSLH           &trans              &trans          &kp CARET         &kp LBRC         &kp RBRC        &trans   &trans
+        &trans &kp DQT &kp AT           &kp QMARK         &kp STAR           &kp SQT             &kp EXCL        &kp EQUAL         &kp LPAR         &kp RPAR        &kp PLUS &trans
+        &trans &trans  &hmtl LALT PRCNT &hmtl LCTRL TILDE &hmtl LSHIFT GRAVE &hmtl LGUI DLLR     &hmtr RGUI AMPS &hmtr RSHIFT PIPE &hmtr RCTRL LBKT &hmtr RALT RBKT &trans   &trans
+                                        &trans            &trans             &trans              &trans          &trans            &trans
       >;
     };
     numpad_layer {
